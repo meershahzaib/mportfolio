@@ -1,0 +1,396 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 600px;
+    width: 180;
+    background-color: #20242d;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #154865;
+    border-radius: 5px;
+}
+
+/*header space*/
+
+.outerdiv {
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.headingdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 200px;
+    /* background-color: green; */
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 30px;
+    color: #01eeff;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 80px;
+    height: 8vh;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana;
+    border-radius: 4px;
+    transition: 0.5s;
+    padding: 5px;
+
+}
+
+a:hover {
+    background-color: #01eeff;
+    color: black;
+    box-shadow: 2px 2px 40px white;
+}
+
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 120px;
+    margin-right: 35px;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 126px;
+    margin-right: 35px;
+
+}
+
+
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 120px;
+    margin-right: 35px;
+
+}
+
+
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 120px;
+    margin-right: 35px;
+}
+
+.outermain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    /* background-color: blue; */
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    width: 900px;
+    height: 300px;
+    /* background-color: red; */
+    /* border: 1px solid wheat; */
+    border-radius: 10px;
+    transition: 0.6s;
+    /* margin-left: 50px; */
+
+}
+
+/* .main:hover{
+    box-shadow: 2px 2px 20px  white;
+} */
+
+.innermain {
+    height: 160px;
+    width: 500px;
+    /* background-color: black; */
+    /* margin: 160px 200px; */
+
+}
+
+p,
+h2,
+h3 {
+    color: white;
+}
+
+h2 {
+    padding-left: 100px;
+    font-size: 32px;
+    font-family: sans-serif;
+
+}
+
+h3 {
+    padding-left: 100px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding-left: 100px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS';
+}
+
+b {
+    color: #01eeff;
+}
+
+.btn {
+    height: 45px;
+    width: 130px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(28, 11, 144);
+    border: none;
+    border-radius: 8px;
+    font-family: 'Trebuchet MS';
+    margin-left: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    box-shadow: 1px 1px 5px white;
+}
+
+
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    /* background-color: yellow; */
+
+}
+
+.png {
+    height: 250px;
+    width: 250px;
+    background-image: url(meers.jpg);
+    background-size: cover;
+    border: 1px solid wheat;
+    border-radius: 50%;
+    /* background-color: green; */
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    font-family: Verdana;
+    /* background-color: blue; */
+}
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    height: auto;
+    /* background-color: red; */
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+hr {
+    width: 1000px;
+}
+
+h4 {
+    font-size: 25px;
+    color: white;
+    border: 1px solid wheat;
+    font-family: Arial;
+    /* background-color: #20c1cd; */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+h5 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+}
+
+.cocacola {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    /* background-color: green; */
+}
+
+.sprite {
+    margin-top: 50px;
+}
+
+strong {
+    font-size: 25px;
+    color: white;
+    border: 1px solid wheat;
+    font-family: Arial;
+    /* background-color: #20c1cd; */
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.skils {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 350px;
+    /* background-color: rgb(21, 73, 23); */
+
+}
+
+
+.card11 {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    height: 300px;
+    width: 250px;
+    /* background-color: green; */
+    border-radius: 10px;
+    border: 1px solid wheat;
+    box-shadow: 1px 1px 8px wheat;
+
+}
+
+.card22 {
+    display: flex;
+    justify-content: center;
+}
+
+.card2 {
+    height: 300px;
+    width: 250px;
+    /* background-color: red; */
+    border-radius: 10px;
+    border: 1px solid wheat;
+    box-shadow: 1px 1px 8px wheat;
+
+
+
+}
+
+.card33 {
+    display: flex;
+    justify-content: center;
+}
+
+.card3 {
+    height: 300px;
+    width: 250px;
+    /* background-color: blue; */
+    border-radius: 10px;
+    border: 1px solid wheat;
+    box-shadow: 1px 1px 8px wheat;
+
+
+
+}
+
+.card44 {
+    display: flex;
+    justify-content: center;
+}
+
+.card4 {
+    height: 300px;
+    width: 250px;
+    /* background-color: pink; */
+    border-radius: 10px;
+    border: 1px solid wheat;
+    box-shadow: 1px 1px 8px wheat;
+
+
+
+}
+
+.card55 {
+    display: flex;
+    justify-content: center;
+}
+
+.card5 {
+    height: 300px;
+    width: 250px;
+    /* background-color: yellow; */
+    border-radius: 10px;
+    border: 1px solid wheat;
+    box-shadow: 1px 1px 8px wheat;
+
+
+}
+
+h6 {
+    font-family: Verdana;
+    font-size: 25px;
+    color: white;
+}
