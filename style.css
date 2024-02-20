@@ -394,3 +394,35 @@ h6 {
     font-size: 25px;
     color: white;
 }
+
+
+@media (max-width: 412px){
+    .main{
+        width: 100%;
+    }
+}
+
+@media  (max-width: 400px){
+    .about{
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .png{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+    }
+    .image{
+        width: 250px;
+    }
+    .outermain {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        width: 558px;
+        height: 500px;
+        /* background-color: blue; */
+    }
+}
