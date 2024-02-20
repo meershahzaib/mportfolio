@@ -396,22 +396,25 @@ h6 {
 }
 
 
-@media (max-width: 412px){
+@media (max-width: 400px){
     .main{
-        width: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
     }
 }
 
 @media  (max-width: 400px){
     .about{
-        width: 400px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    width: 570px;
+    height: 336px;
+    margin-top: 80px;
+    margin-left: 40px;
     }
     .png{
-        width: 130px;
-        height: 130px;
+        width: 230px;
+        height: 230px;
         border-radius: 50%;
     }
     .image{
@@ -419,10 +422,57 @@ h6 {
     }
     .outermain {
         display: flex;
+        flex-direction: column-reverse;
         /* justify-content: center; */
         align-items: center;
-        width: 558px;
+        width: 668px;
         height: 500px;
         /* background-color: blue; */
+    }
+    .hr{
+        display:none;
+        
+    }
+    .btn{
+    margin-left: 179px;
+    padding: 9px;
+    margin-top: 30px;
+    }
+    h5{
+        width: 570px;
+        font-size: 15px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    p{
+    padding-left: 0px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    }
+    h4{
+    padding-left: 7px; 
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    }
+    h3{
+        padding-left: 0px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+    .cocacola{
+    display: flex;
+    /* justify-content: center; */
+    width: 337px;
+    height: 100px;
+    justify-content: end;
+    }
+    .skils{
+        display: flex;
+        flex-direction: column ;
+        width: 300px;
+        height: 300px;
+        margin-left: 140px;
     }
 }
